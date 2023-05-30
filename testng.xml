@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <listeners>
+  <listener class-name="luma.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="luma.testcases.LoginPageTest"/>
+      <class name="luma.testcases.HomePageTest"/>
+      <class name="luma.testcases.WomenPageTest"/>
+      <class name="luma.testcases.MenPageTest"/>
+      <class name="luma.testcases.GearPageTest"/>
+      <class name="luma.testcases.SalePageTest"/>
+       <class name="luma.testcases.SignOutPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
